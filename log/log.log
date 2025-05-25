@@ -1,0 +1,1829 @@
+2025-05-22 23:12:40.381 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.384 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："{"(123)[1:1]
+2025-05-22 23:12:40.386 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.386 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："传"(20256)[1:2]
+2025-05-22 23:12:40.386 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入COMMENT状态
+2025-05-22 23:12:40.386 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："说"(35828)[1:3]
+2025-05-22 23:12:40.387 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："中"(20013)[1:4]
+2025-05-22 23:12:40.387 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："的"(30340)[1:5]
+2025-05-22 23:12:40.387 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："注"(27880)[1:6]
+2025-05-22 23:12:40.387 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："释"(37322)[1:7]
+2025-05-22 23:12:40.387 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："}"(125)[1:8]
+2025-05-22 23:12:40.387 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[1:9]
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："p"(112)[2:1]
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[2:2]
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[2:3]
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[2:4]
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[2:5]
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.388 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[2:6]
+2025-05-22 23:12:40.389 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.389 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："m"(109)[2:7]
+2025-05-22 23:12:40.389 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.389 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[2:8]
+2025-05-22 23:12:40.389 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.389 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[2:8]
+2025-05-22 23:12:40.389 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[2:8]
+2025-05-22 23:12:40.396 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (2,7), PROGRAM, program >
+2025-05-22 23:12:40.397 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.397 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："p"(112)[2:9]
+2025-05-22 23:12:40.397 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.397 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[2:10]
+2025-05-22 23:12:40.397 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.397 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[2:10]
+2025-05-22 23:12:40.397 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[2:10]
+2025-05-22 23:12:40.397 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (2,9), ID, p >
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[3:1]
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："y"(121)[3:2]
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："p"(112)[3:3]
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[3:4]
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[3:5]
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.398 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[3:5]
+2025-05-22 23:12:40.399 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[3:5]
+2025-05-22 23:12:40.399 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (3,4), TYPE, type >
+2025-05-22 23:12:40.399 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.399 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[3:6]
+2025-05-22 23:12:40.399 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.399 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[3:7]
+2025-05-22 23:12:40.399 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.399 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[3:7]
+2025-05-22 23:12:40.399 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[3:7]
+2025-05-22 23:12:40.400 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (3,6), ID, t >
+2025-05-22 23:12:40.400 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.400 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[3:8]
+2025-05-22 23:12:40.400 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.400 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (3,8), EQ, = >
+2025-05-22 23:12:40.400 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.400 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[3:9]
+2025-05-22 23:12:40.400 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.400 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[3:10]
+2025-05-22 23:12:40.400 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[3:11]
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[3:12]
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[3:13]
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[3:14]
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[3:15]
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.401 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[3:16]
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[3:17]
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[3:17]
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[3:17]
+2025-05-22 23:12:40.402 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (3,16), INTEGER, integer >
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[3:17]
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.402 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (3,17), SEMI, ; >
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.402 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[3:18]
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:1]
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:2]
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:3]
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:4]
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[4:5]
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.403 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[4:6]
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[4:7]
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:8]
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[4:8]
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[4:8]
+2025-05-22 23:12:40.404 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,7), VAR, var >
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[4:9]
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:10]
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[4:10]
+2025-05-22 23:12:40.404 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[4:10]
+2025-05-22 23:12:40.405 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,9), ID, t >
+2025-05-22 23:12:40.405 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.405 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[4:11]
+2025-05-22 23:12:40.405 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.405 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[4:12]
+2025-05-22 23:12:40.405 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.405 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[4:13]
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[4:13]
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[4:13]
+2025-05-22 23:12:40.406 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,12), ID, v1 >
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[4:13]
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.406 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,13), SEMI, ; >
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[4:14]
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:1]
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:2]
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:3]
+2025-05-22 23:12:40.406 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:4]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[5:5]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："h"(104)[5:6]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[5:7]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[5:8]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:9]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[5:9]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[5:9]
+2025-05-22 23:12:40.407 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (5,8), CHAR, char >
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[5:10]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："2"(50)[5:11]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[5:12]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[5:12]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[5:12]
+2025-05-22 23:12:40.407 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (5,11), ID, v2 >
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[5:12]
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.407 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (5,12), SEMI, ; >
+2025-05-22 23:12:40.407 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[5:13]
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："b"(98)[6:1]
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:2]
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[6:3]
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[6:4]
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[6:5]
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[6:6]
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[6:6]
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[6:6]
+2025-05-22 23:12:40.408 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,5), BEGIN, begin >
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.408 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[7:1]
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[7:2]
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[7:3]
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[7:4]
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[7:5]
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[7:6]
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[7:7]
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[7:8]
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[7:9]
+2025-05-22 23:12:40.409 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[7:9]
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[7:9]
+2025-05-22 23:12:40.410 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,8), READ, read >
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[7:9]
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.410 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,9), LPAREN, ( >
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[7:10]
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[7:11]
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[7:12]
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.410 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[7:12]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[7:12]
+2025-05-22 23:12:40.411 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,11), ID, v1 >
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[7:12]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.411 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,12), RPAREN, ) >
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[7:13]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.411 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,13), SEMI, ; >
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[7:14]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[8:1]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[8:2]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[8:3]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[8:4]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[8:5]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[8:6]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[8:7]
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.411 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[8:7]
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[8:7]
+2025-05-22 23:12:40.412 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (8,6), ID, v1 >
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：":"(58)[8:8]
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[8:9]
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ASSIGN状态
+2025-05-22 23:12:40.412 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (8,9), ASSIGN, := >
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[8:10]
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[8:11]
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[8:12]
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[8:13]
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[8:13]
+2025-05-22 23:12:40.412 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[8:13]
+2025-05-22 23:12:40.413 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (8,12), ID, v1 >
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："+"(43)[8:14]
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.413 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (8,14), PLUS, + >
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[8:15]
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[8:16]
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："0"(48)[8:17]
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NUM状态
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[8:18]
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NUM状态
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[8:18]
+2025-05-22 23:12:40.413 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (8,17), INTC, 10 >
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[8:18]
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.413 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (8,18), SEMI, ; >
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[8:19]
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[9:1]
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[9:2]
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.413 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[9:3]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[9:4]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："{"(123)[9:5]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[9:6]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入COMMENT状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[9:7]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[9:8]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[9:9]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[9:10]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[9:11]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："'"(39)[9:12]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[9:13]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："'"(39)[9:14]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："'"(39)[9:15]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[9:16]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："}"(125)[9:17]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[9:18]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[10:1]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[10:2]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[10:3]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[10:4]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[10:5]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[10:6]
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.414 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[10:7]
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[10:8]
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[10:9]
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[10:10]
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[10:10]
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[10:10]
+2025-05-22 23:12:40.415 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,9), WRITE, write >
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[10:10]
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.415 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,10), LPAREN, ( >
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[10:11]
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[10:12]
+2025-05-22 23:12:40.415 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[10:13]
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[10:13]
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[10:13]
+2025-05-22 23:12:40.416 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,12), ID, v1 >
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[10:13]
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.416 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,13), RPAREN, ) >
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[10:14]
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[11:1]
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[11:2]
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[11:3]
+2025-05-22 23:12:40.416 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："."(46)[11:4]
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："."(46)[11:4]
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："."(46)[11:4]
+2025-05-22 23:12:40.417 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (11,3), END, end >
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："."(46)[11:4]
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[11:5]
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入DOT状态
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[12:1]
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[13:1]
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："￿"(-1)[14:0]
+2025-05-22 23:12:40.417 [TRACE] com.mytlx.compiler.lexer.Lexer - 结束标志
+2025-05-22 23:12:40.418 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (11,4), EOF, . >
+2025-05-22 23:12:40.418 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-22 23:12:40.418 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："￿"(-1)[15:0]
+2025-05-22 23:45:21.572 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-22 23:45:23.793 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成语法分析树
+2025-05-23 00:03:36.304 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:03:48.606 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成语法分析树
+2025-05-23 00:04:22.320 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:06:02.800 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:08:01.498 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:10:01.579 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:11:34.334 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:12:00.562 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:12:42.921 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:15:04.481 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:15:22.065 [INFO ] com.mytlx.compiler.GUI.SNLCompilerGUI - =======开始词法分析========
+2025-05-23 00:15:22.760 [INFO ] com.mytlx.compiler.GUI.SNLCompilerGUI - 源文件：snlText.txt
+2025-05-23 00:15:23.393 [INFO ] com.mytlx.compiler.GUI.SNLCompilerGUI - 输出文件：tokenList.txt
+2025-05-23 00:15:26.543 [INFO ] com.mytlx.compiler.GUI.SNLCompilerGUI - ===========================
+2025-05-23 00:15:26.578 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.578 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："{"(123)[1:1]
+2025-05-23 00:15:26.578 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.578 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："递"(36882)[1:2]
+2025-05-23 00:15:26.578 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入COMMENT状态
+2025-05-23 00:15:26.578 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："归"(24402)[1:3]
+2025-05-23 00:15:26.578 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："调"(35843)[1:4]
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："用"(29992)[1:5]
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："测"(27979)[1:6]
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："试"(35797)[1:7]
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："}"(125)[1:8]
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[1:9]
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："{"(123)[2:1]
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："功"(21151)[2:2]
+2025-05-23 00:15:26.586 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入COMMENT状态
+2025-05-23 00:15:26.591 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："能"(33021)[2:3]
+2025-05-23 00:15:26.591 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："："(65306)[2:4]
+2025-05-23 00:15:26.591 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："对"(23545)[2:5]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："于"(20110)[2:6]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："输"(36755)[2:7]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："入"(20837)[2:8]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[2:9]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[2:10]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："输"(36755)[2:11]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："出"(20986)[2:12]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[2:13]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："的"(30340)[2:14]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："阶"(38454)[2:15]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："乘"(20056)[2:16]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："}"(125)[2:17]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[2:18]
+2025-05-23 00:15:26.593 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："p"(112)[3:1]
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[3:2]
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[3:3]
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[3:4]
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[3:5]
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[3:6]
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："m"(109)[3:7]
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[3:8]
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.601 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[3:8]
+2025-05-23 00:15:26.610 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[3:8]
+2025-05-23 00:15:26.678 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (3,7), PROGRAM, program >
+2025-05-23 00:15:26.678 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.678 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[3:9]
+2025-05-23 00:15:26.680 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.680 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[3:10]
+2025-05-23 00:15:26.680 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.680 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[3:11]
+2025-05-23 00:15:26.680 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.680 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[3:11]
+2025-05-23 00:15:26.680 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[3:11]
+2025-05-23 00:15:26.680 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (3,10), ID, sd >
+2025-05-23 00:15:26.680 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.680 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[4:1]
+2025-05-23 00:15:26.685 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.685 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[4:2]
+2025-05-23 00:15:26.685 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.685 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[4:3]
+2025-05-23 00:15:26.685 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.685 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:4]
+2025-05-23 00:15:26.685 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.685 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[4:4]
+2025-05-23 00:15:26.685 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[4:4]
+2025-05-23 00:15:26.689 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,3), VAR, var >
+2025-05-23 00:15:26.689 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.689 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[4:5]
+2025-05-23 00:15:26.689 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.689 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[4:6]
+2025-05-23 00:15:26.689 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.689 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[4:7]
+2025-05-23 00:15:26.691 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.691 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[4:8]
+2025-05-23 00:15:26.691 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.691 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[4:9]
+2025-05-23 00:15:26.691 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.693 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[4:10]
+2025-05-23 00:15:26.693 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.693 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[4:11]
+2025-05-23 00:15:26.693 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.693 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:12]
+2025-05-23 00:15:26.693 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.693 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[4:12]
+2025-05-23 00:15:26.695 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[4:12]
+2025-05-23 00:15:26.695 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,11), INTEGER, integer >
+2025-05-23 00:15:26.695 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.695 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[4:13]
+2025-05-23 00:15:26.697 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.697 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[4:14]
+2025-05-23 00:15:26.697 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.697 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[4:14]
+2025-05-23 00:15:26.697 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[4:14]
+2025-05-23 00:15:26.697 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,13), ID, s >
+2025-05-23 00:15:26.697 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.697 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[4:14]
+2025-05-23 00:15:26.697 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.697 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,14), SEMI, ; >
+2025-05-23 00:15:26.697 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.702 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[4:15]
+2025-05-23 00:15:26.702 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.702 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:1]
+2025-05-23 00:15:26.702 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.702 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:2]
+2025-05-23 00:15:26.702 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.702 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:3]
+2025-05-23 00:15:26.705 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.706 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:4]
+2025-05-23 00:15:26.706 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.706 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[5:5]
+2025-05-23 00:15:26.706 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.706 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[5:6]
+2025-05-23 00:15:26.706 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.708 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[5:7]
+2025-05-23 00:15:26.708 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.708 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[5:8]
+2025-05-23 00:15:26.710 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[5:9]
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[5:10]
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[5:11]
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:12]
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[5:12]
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[5:12]
+2025-05-23 00:15:26.711 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (5,11), INTEGER, integer >
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[5:13]
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[5:14]
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[5:14]
+2025-05-23 00:15:26.711 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[5:14]
+2025-05-23 00:15:26.718 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (5,13), ID, t >
+2025-05-23 00:15:26.718 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.718 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[5:14]
+2025-05-23 00:15:26.720 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.720 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (5,14), SEMI, ; >
+2025-05-23 00:15:26.721 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.721 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[5:15]
+2025-05-23 00:15:26.722 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.722 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："p"(112)[6:1]
+2025-05-23 00:15:26.723 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.723 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:2]
+2025-05-23 00:15:26.723 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.723 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[6:3]
+2025-05-23 00:15:26.723 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.723 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[6:4]
+2025-05-23 00:15:26.723 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.723 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:5]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[6:6]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："u"(117)[6:7]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:8]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:9]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[6:10]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[6:10]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[6:10]
+2025-05-23 00:15:26.726 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,9), PROCEDURE, procedure >
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[6:11]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[6:12]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[6:13]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[6:14]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[6:15]
+2025-05-23 00:15:26.726 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:16]
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[6:17]
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[6:17]
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[6:17]
+2025-05-23 00:15:26.734 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,16), ID, factor >
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[6:17]
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.734 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,17), LPAREN, ( >
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[6:18]
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[6:19]
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[6:20]
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:21]
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[6:22]
+2025-05-23 00:15:26.734 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.742 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:23]
+2025-05-23 00:15:26.742 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.742 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:24]
+2025-05-23 00:15:26.742 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.742 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[6:25]
+2025-05-23 00:15:26.742 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.746 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[6:25]
+2025-05-23 00:15:26.746 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[6:25]
+2025-05-23 00:15:26.746 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,24), INTEGER, integer >
+2025-05-23 00:15:26.746 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.746 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[6:26]
+2025-05-23 00:15:26.746 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.746 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[6:27]
+2025-05-23 00:15:26.746 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.751 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[6:27]
+2025-05-23 00:15:26.751 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[6:27]
+2025-05-23 00:15:26.751 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,26), ID, n >
+2025-05-23 00:15:26.751 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.751 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[6:27]
+2025-05-23 00:15:26.751 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.751 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,27), SEMI, ; >
+2025-05-23 00:15:26.751 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.751 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[6:28]
+2025-05-23 00:15:26.751 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.758 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[6:29]
+2025-05-23 00:15:26.758 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.758 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:30]
+2025-05-23 00:15:26.758 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.758 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[6:31]
+2025-05-23 00:15:26.761 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.761 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[6:31]
+2025-05-23 00:15:26.761 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[6:31]
+2025-05-23 00:15:26.761 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,30), VAR, var >
+2025-05-23 00:15:26.761 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.761 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[6:32]
+2025-05-23 00:15:26.761 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.761 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[6:33]
+2025-05-23 00:15:26.767 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.767 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[6:34]
+2025-05-23 00:15:26.767 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.767 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:35]
+2025-05-23 00:15:26.767 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.767 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[6:36]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:37]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:38]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[6:39]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[6:39]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[6:39]
+2025-05-23 00:15:26.770 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,38), INTEGER, integer >
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："m"(109)[6:40]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[6:41]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[6:41]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[6:41]
+2025-05-23 00:15:26.770 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,40), ID, m >
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[6:41]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.770 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,41), RPAREN, ) >
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[6:42]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.770 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,42), SEMI, ; >
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[6:43]
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.770 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[7:1]
+2025-05-23 00:15:26.782 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[7:2]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[7:3]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[7:4]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[7:4]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[7:4]
+2025-05-23 00:15:26.783 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,3), VAR, var >
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[7:5]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[7:6]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[7:7]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[7:8]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[7:9]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[7:10]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[7:11]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[7:12]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[7:12]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[7:12]
+2025-05-23 00:15:26.783 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,11), INTEGER, integer >
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[7:13]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[7:14]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[7:14]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[7:14]
+2025-05-23 00:15:26.783 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,13), ID, w >
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[7:14]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.783 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,14), SEMI, ; >
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[7:15]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："b"(98)[8:1]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[8:2]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[8:3]
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.783 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[8:4]
+2025-05-23 00:15:26.798 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.798 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[8:5]
+2025-05-23 00:15:26.799 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.799 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[8:6]
+2025-05-23 00:15:26.801 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.801 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[8:6]
+2025-05-23 00:15:26.802 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[8:6]
+2025-05-23 00:15:26.803 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (8,5), BEGIN, begin >
+2025-05-23 00:15:26.803 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.803 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[9:1]
+2025-05-23 00:15:26.804 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.804 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[9:2]
+2025-05-23 00:15:26.804 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.804 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[9:3]
+2025-05-23 00:15:26.804 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.804 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[9:3]
+2025-05-23 00:15:26.806 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[9:3]
+2025-05-23 00:15:26.807 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (9,2), IF, if >
+2025-05-23 00:15:26.808 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.808 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[9:4]
+2025-05-23 00:15:26.808 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.809 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[9:5]
+2025-05-23 00:15:26.809 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.809 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："="(61)[9:5]
+2025-05-23 00:15:26.810 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："="(61)[9:5]
+2025-05-23 00:15:26.811 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (9,4), ID, n >
+2025-05-23 00:15:26.811 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.812 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[9:5]
+2025-05-23 00:15:26.812 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.813 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (9,5), EQ, = >
+2025-05-23 00:15:26.813 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.813 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："0"(48)[9:6]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[9:7]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NUM状态
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[9:7]
+2025-05-23 00:15:26.814 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (9,6), INTC, 0 >
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[10:1]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："h"(104)[10:2]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[10:3]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[10:4]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[10:5]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[10:5]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[10:5]
+2025-05-23 00:15:26.814 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,4), THEN, then >
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："m"(109)[10:6]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：":"(58)[10:7]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：":"(58)[10:7]
+2025-05-23 00:15:26.814 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：":"(58)[10:7]
+2025-05-23 00:15:26.814 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,6), ID, m >
+2025-05-23 00:15:26.822 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.822 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：":"(58)[10:7]
+2025-05-23 00:15:26.822 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.822 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[10:8]
+2025-05-23 00:15:26.822 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ASSIGN状态
+2025-05-23 00:15:26.822 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,8), ASSIGN, := >
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[10:9]
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[10:10]
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NUM状态
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[10:10]
+2025-05-23 00:15:26.825 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,9), INTC, 1 >
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[11:1]
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："l"(108)[11:2]
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[11:3]
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[11:4]
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[11:5]
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[11:5]
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[11:5]
+2025-05-23 00:15:26.825 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (11,4), ELSE, else >
+2025-05-23 00:15:26.825 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.833 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[11:6]
+2025-05-23 00:15:26.833 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.833 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[12:1]
+2025-05-23 00:15:26.833 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.833 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[12:2]
+2025-05-23 00:15:26.833 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.833 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[12:3]
+2025-05-23 00:15:26.833 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.833 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[12:4]
+2025-05-23 00:15:26.837 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.837 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[12:5]
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[12:6]
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[12:7]
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[12:8]
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[12:9]
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[12:9]
+2025-05-23 00:15:26.838 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[12:9]
+2025-05-23 00:15:26.838 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,8), ID, factor >
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[12:9]
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.845 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,9), LPAREN, ( >
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[12:10]
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："-"(45)[12:11]
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："-"(45)[12:11]
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："-"(45)[12:11]
+2025-05-23 00:15:26.845 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,10), ID, n >
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："-"(45)[12:11]
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.845 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,11), MINUS, - >
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[12:12]
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[12:13]
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NUM状态
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：","(44)[12:13]
+2025-05-23 00:15:26.845 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,12), INTC, 1 >
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[12:13]
+2025-05-23 00:15:26.845 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.856 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,13), COMMA, , >
+2025-05-23 00:15:26.856 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.856 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[12:14]
+2025-05-23 00:15:26.856 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.859 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[12:15]
+2025-05-23 00:15:26.859 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.859 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[12:15]
+2025-05-23 00:15:26.859 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[12:15]
+2025-05-23 00:15:26.861 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,14), ID, w >
+2025-05-23 00:15:26.861 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.861 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[12:15]
+2025-05-23 00:15:26.861 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.862 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,15), RPAREN, ) >
+2025-05-23 00:15:26.862 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.862 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[12:16]
+2025-05-23 00:15:26.862 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.862 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,16), SEMI, ; >
+2025-05-23 00:15:26.862 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.862 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[12:17]
+2025-05-23 00:15:26.862 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.862 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[13:1]
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[13:2]
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："m"(109)[13:3]
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：":"(58)[13:4]
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：":"(58)[13:4]
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：":"(58)[13:4]
+2025-05-23 00:15:26.865 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,3), ID, m >
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：":"(58)[13:4]
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[13:5]
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ASSIGN状态
+2025-05-23 00:15:26.865 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,5), ASSIGN, := >
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[13:6]
+2025-05-23 00:15:26.865 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.870 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："*"(42)[13:7]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："*"(42)[13:7]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："*"(42)[13:7]
+2025-05-23 00:15:26.872 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,6), ID, n >
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："*"(42)[13:7]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.872 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,7), TIMES, * >
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[13:8]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[13:9]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[13:9]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[13:9]
+2025-05-23 00:15:26.872 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,8), ID, w >
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[14:1]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[14:2]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[14:3]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[14:3]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[14:3]
+2025-05-23 00:15:26.872 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (14,2), FI, fi >
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[15:1]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[15:2]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[15:3]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[15:4]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[15:4]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[15:4]
+2025-05-23 00:15:26.872 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (15,3), END, end >
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："b"(98)[16:1]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[16:2]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[16:3]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[16:4]
+2025-05-23 00:15:26.872 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.886 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[16:5]
+2025-05-23 00:15:26.886 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.886 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[16:6]
+2025-05-23 00:15:26.886 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.886 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[16:6]
+2025-05-23 00:15:26.886 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[16:6]
+2025-05-23 00:15:26.886 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (16,5), BEGIN, begin >
+2025-05-23 00:15:26.886 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.889 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[17:1]
+2025-05-23 00:15:26.890 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[17:2]
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[17:3]
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[17:4]
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[17:5]
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[17:5]
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[17:5]
+2025-05-23 00:15:26.892 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,4), READ, read >
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[17:5]
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.892 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,5), LPAREN, ( >
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[17:6]
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.892 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[17:7]
+2025-05-23 00:15:26.900 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.900 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[17:7]
+2025-05-23 00:15:26.900 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[17:7]
+2025-05-23 00:15:26.901 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,6), ID, s >
+2025-05-23 00:15:26.901 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.912 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[17:7]
+2025-05-23 00:15:26.914 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.916 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,7), RPAREN, ) >
+2025-05-23 00:15:26.916 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.916 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[17:8]
+2025-05-23 00:15:26.918 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.919 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,8), SEMI, ; >
+2025-05-23 00:15:26.919 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.920 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[17:9]
+2025-05-23 00:15:26.920 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.920 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[18:1]
+2025-05-23 00:15:26.921 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.921 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[18:2]
+2025-05-23 00:15:26.921 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.922 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[18:3]
+2025-05-23 00:15:26.922 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.922 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[18:4]
+2025-05-23 00:15:26.922 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.923 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[18:5]
+2025-05-23 00:15:26.923 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.923 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[18:6]
+2025-05-23 00:15:26.923 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[18:7]
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[18:7]
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[18:7]
+2025-05-23 00:15:26.925 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,6), ID, factor >
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[18:7]
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.925 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,7), LPAREN, ( >
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[18:8]
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[18:9]
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：","(44)[18:9]
+2025-05-23 00:15:26.925 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：","(44)[18:9]
+2025-05-23 00:15:26.930 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,8), ID, s >
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[18:9]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.930 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,9), COMMA, , >
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[18:10]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[18:11]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[18:11]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[18:11]
+2025-05-23 00:15:26.930 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,10), ID, t >
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[18:11]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.930 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,11), RPAREN, ) >
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[18:12]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.930 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,12), SEMI, ; >
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[18:13]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[19:1]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[19:2]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[19:3]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[19:4]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[19:5]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[19:6]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[19:6]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[19:6]
+2025-05-23 00:15:26.930 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (19,5), WRITE, write >
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[19:6]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.930 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (19,6), LPAREN, ( >
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[19:7]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[19:8]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[19:8]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[19:8]
+2025-05-23 00:15:26.930 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (19,7), ID, t >
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[19:8]
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.930 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (19,8), RPAREN, ) >
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.930 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[19:9]
+2025-05-23 00:15:26.946 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[20:1]
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[20:2]
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[20:3]
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："."(46)[20:4]
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："."(46)[20:4]
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："."(46)[20:4]
+2025-05-23 00:15:26.947 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (20,3), END, end >
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："."(46)[20:4]
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[20:5]
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入DOT状态
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[20:6]
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："￿"(-1)[21:0]
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 结束标志
+2025-05-23 00:15:26.947 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (20,4), EOF, . >
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:26.947 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："￿"(-1)[22:0]
+2025-05-23 00:15:41.199 [TRACE] com.mytlx.compiler.GUI.SNLCompilerGUI - GUI点击“生成Token序列
+2025-05-23 00:15:41.206 [INFO ] com.mytlx.compiler.GUI.SNLCompilerGUI - =======开始词法分析========
+2025-05-23 00:15:41.206 [INFO ] com.mytlx.compiler.GUI.SNLCompilerGUI - 源文件：snlText.txt
+2025-05-23 00:15:41.206 [INFO ] com.mytlx.compiler.GUI.SNLCompilerGUI - 输出文件：tokenList.txt
+2025-05-23 00:15:41.206 [INFO ] com.mytlx.compiler.GUI.SNLCompilerGUI - ===========================
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："{"(123)[1:1]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："递"(36882)[1:2]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入COMMENT状态
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："归"(24402)[1:3]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："调"(35843)[1:4]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："用"(29992)[1:5]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："测"(27979)[1:6]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："试"(35797)[1:7]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："}"(125)[1:8]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[1:9]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："{"(123)[2:1]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："功"(21151)[2:2]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入COMMENT状态
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："能"(33021)[2:3]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："："(65306)[2:4]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："对"(23545)[2:5]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："于"(20110)[2:6]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："输"(36755)[2:7]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："入"(20837)[2:8]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[2:9]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[2:10]
+2025-05-23 00:15:41.206 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："输"(36755)[2:11]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："出"(20986)[2:12]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[2:13]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："的"(30340)[2:14]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："阶"(38454)[2:15]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："乘"(20056)[2:16]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："}"(125)[2:17]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[2:18]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："p"(112)[3:1]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[3:2]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[3:3]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[3:4]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[3:5]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[3:6]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："m"(109)[3:7]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[3:8]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[3:8]
+2025-05-23 00:15:41.214 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[3:8]
+2025-05-23 00:15:41.217 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (3,7), PROGRAM, program >
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[3:9]
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[3:10]
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[3:11]
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[3:11]
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[3:11]
+2025-05-23 00:15:41.217 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (3,10), ID, sd >
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[4:1]
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.217 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[4:2]
+2025-05-23 00:15:41.218 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.218 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[4:3]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:4]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[4:4]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[4:4]
+2025-05-23 00:15:41.220 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,3), VAR, var >
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[4:5]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[4:6]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[4:7]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[4:8]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[4:9]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[4:10]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[4:11]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[4:12]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[4:12]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[4:12]
+2025-05-23 00:15:41.220 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,11), INTEGER, integer >
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[4:13]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[4:14]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[4:14]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[4:14]
+2025-05-23 00:15:41.220 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,13), ID, s >
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[4:14]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.220 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (4,14), SEMI, ; >
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[4:15]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:1]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:2]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:3]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:4]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[5:5]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[5:6]
+2025-05-23 00:15:41.220 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[5:7]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[5:8]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[5:9]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[5:10]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[5:11]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[5:12]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[5:12]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[5:12]
+2025-05-23 00:15:41.222 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (5,11), INTEGER, integer >
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[5:13]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[5:14]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[5:14]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[5:14]
+2025-05-23 00:15:41.222 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (5,13), ID, t >
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[5:14]
+2025-05-23 00:15:41.222 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.222 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (5,14), SEMI, ; >
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[5:15]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："p"(112)[6:1]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:2]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[6:3]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[6:4]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:5]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[6:6]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："u"(117)[6:7]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:8]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:9]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[6:10]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[6:10]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[6:10]
+2025-05-23 00:15:41.225 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,9), PROCEDURE, procedure >
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[6:11]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[6:12]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[6:13]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[6:14]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[6:15]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:16]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[6:17]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[6:17]
+2025-05-23 00:15:41.225 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[6:17]
+2025-05-23 00:15:41.225 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,16), ID, factor >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[6:17]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,17), LPAREN, ( >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[6:18]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[6:19]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[6:20]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:21]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[6:22]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:23]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:24]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[6:25]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[6:25]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[6:25]
+2025-05-23 00:15:41.227 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,24), INTEGER, integer >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[6:26]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[6:27]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[6:27]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[6:27]
+2025-05-23 00:15:41.227 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,26), ID, n >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[6:27]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,27), SEMI, ; >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[6:28]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[6:29]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:30]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[6:31]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[6:31]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[6:31]
+2025-05-23 00:15:41.227 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,30), VAR, var >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[6:32]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[6:33]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[6:34]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:35]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[6:36]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[6:37]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[6:38]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[6:39]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[6:39]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[6:39]
+2025-05-23 00:15:41.227 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,38), INTEGER, integer >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："m"(109)[6:40]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[6:41]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[6:41]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[6:41]
+2025-05-23 00:15:41.227 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,40), ID, m >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[6:41]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,41), RPAREN, ) >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[6:42]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (6,42), SEMI, ; >
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[6:43]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："v"(118)[7:1]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[7:2]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[7:3]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[7:4]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[7:4]
+2025-05-23 00:15:41.227 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[7:4]
+2025-05-23 00:15:41.231 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,3), VAR, var >
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[7:5]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[7:6]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[7:7]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[7:8]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[7:9]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[7:10]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[7:11]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[7:12]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[7:12]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[7:12]
+2025-05-23 00:15:41.231 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,11), INTEGER, integer >
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[7:13]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[7:14]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：";"(59)[7:14]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：";"(59)[7:14]
+2025-05-23 00:15:41.231 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,13), ID, w >
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[7:14]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.231 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (7,14), SEMI, ; >
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[7:15]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："b"(98)[8:1]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[8:2]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[8:3]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[8:4]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[8:5]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[8:6]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[8:6]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[8:6]
+2025-05-23 00:15:41.231 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (8,5), BEGIN, begin >
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[9:1]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[9:2]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[9:3]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[9:3]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[9:3]
+2025-05-23 00:15:41.231 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (9,2), IF, if >
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[9:4]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[9:5]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："="(61)[9:5]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："="(61)[9:5]
+2025-05-23 00:15:41.231 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (9,4), ID, n >
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[9:5]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.231 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (9,5), EQ, = >
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："0"(48)[9:6]
+2025-05-23 00:15:41.231 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[9:7]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NUM状态
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[9:7]
+2025-05-23 00:15:41.236 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (9,6), INTC, 0 >
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[10:1]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："h"(104)[10:2]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[10:3]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[10:4]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[10:5]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[10:5]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[10:5]
+2025-05-23 00:15:41.236 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,4), THEN, then >
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："m"(109)[10:6]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：":"(58)[10:7]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：":"(58)[10:7]
+2025-05-23 00:15:41.236 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：":"(58)[10:7]
+2025-05-23 00:15:41.236 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,6), ID, m >
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：":"(58)[10:7]
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[10:8]
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ASSIGN状态
+2025-05-23 00:15:41.237 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,8), ASSIGN, := >
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[10:9]
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[10:10]
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NUM状态
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[10:10]
+2025-05-23 00:15:41.237 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (10,9), INTC, 1 >
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[11:1]
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："l"(108)[11:2]
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.237 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[11:3]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[11:4]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[11:5]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：" "(32)[11:5]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：" "(32)[11:5]
+2025-05-23 00:15:41.239 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (11,4), ELSE, else >
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[11:6]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[12:1]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[12:2]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[12:3]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[12:4]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[12:5]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[12:6]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[12:7]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[12:8]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[12:9]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[12:9]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[12:9]
+2025-05-23 00:15:41.239 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,8), ID, factor >
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[12:9]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.239 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,9), LPAREN, ( >
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[12:10]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："-"(45)[12:11]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："-"(45)[12:11]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："-"(45)[12:11]
+2025-05-23 00:15:41.239 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,10), ID, n >
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："-"(45)[12:11]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.239 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,11), MINUS, - >
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："1"(49)[12:12]
+2025-05-23 00:15:41.239 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[12:13]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NUM状态
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：","(44)[12:13]
+2025-05-23 00:15:41.241 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,12), INTC, 1 >
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[12:13]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.241 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,13), COMMA, , >
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[12:14]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[12:15]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[12:15]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[12:15]
+2025-05-23 00:15:41.241 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,14), ID, w >
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[12:15]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.241 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,15), RPAREN, ) >
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[12:16]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.241 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (12,16), SEMI, ; >
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[12:17]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[13:1]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[13:2]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："m"(109)[13:3]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：":"(58)[13:4]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：":"(58)[13:4]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：":"(58)[13:4]
+2025-05-23 00:15:41.241 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,3), ID, m >
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：":"(58)[13:4]
+2025-05-23 00:15:41.241 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.243 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："="(61)[13:5]
+2025-05-23 00:15:41.243 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ASSIGN状态
+2025-05-23 00:15:41.243 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,5), ASSIGN, := >
+2025-05-23 00:15:41.243 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.243 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[13:6]
+2025-05-23 00:15:41.243 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.243 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："*"(42)[13:7]
+2025-05-23 00:15:41.243 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.243 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："*"(42)[13:7]
+2025-05-23 00:15:41.243 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："*"(42)[13:7]
+2025-05-23 00:15:41.243 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,6), ID, n >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："*"(42)[13:7]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,7), TIMES, * >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[13:8]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[13:9]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[13:9]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[13:9]
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (13,8), ID, w >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[14:1]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[14:2]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[14:3]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[14:3]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[14:3]
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (14,2), FI, fi >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[15:1]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[15:2]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[15:3]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[15:4]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[15:4]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[15:4]
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (15,3), END, end >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："b"(98)[16:1]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[16:2]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："g"(103)[16:3]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[16:4]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[16:5]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[16:6]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："\n"(10)[16:6]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："\n"(10)[16:6]
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (16,5), BEGIN, begin >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[17:1]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[17:2]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[17:3]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[17:4]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[17:5]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[17:5]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[17:5]
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,4), READ, read >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[17:5]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,5), LPAREN, ( >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[17:6]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[17:7]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[17:7]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[17:7]
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,6), ID, s >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[17:7]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,7), RPAREN, ) >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[17:8]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (17,8), SEMI, ; >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[17:9]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："f"(102)[18:1]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："a"(97)[18:2]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[18:3]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[18:4]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："o"(111)[18:5]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[18:6]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[18:7]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[18:7]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[18:7]
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,6), ID, factor >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[18:7]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,7), LPAREN, ( >
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："s"(115)[18:8]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[18:9]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：","(44)[18:9]
+2025-05-23 00:15:41.249 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：","(44)[18:9]
+2025-05-23 00:15:41.255 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,8), ID, s >
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：","(44)[18:9]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,9), COMMA, , >
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[18:10]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[18:11]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[18:11]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[18:11]
+2025-05-23 00:15:41.255 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,10), ID, t >
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[18:11]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,11), RPAREN, ) >
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：";"(59)[18:12]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (18,12), SEMI, ; >
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[18:13]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："w"(119)[19:1]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："r"(114)[19:2]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："i"(105)[19:3]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[19:4]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[19:5]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[19:6]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："("(40)[19:6]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："("(40)[19:6]
+2025-05-23 00:15:41.255 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (19,5), WRITE, write >
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："("(40)[19:6]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (19,6), LPAREN, ( >
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："t"(116)[19:7]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[19:8]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了：")"(41)[19:8]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符：")"(41)[19:8]
+2025-05-23 00:15:41.255 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (19,7), ID, t >
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：")"(41)[19:8]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (19,8), RPAREN, ) >
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[19:9]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："e"(101)[20:1]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："n"(110)[20:2]
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.255 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："c"(99)[20:3]
+2025-05-23 00:15:41.260 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："d"(100)[20:4]
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："."(46)[20:5]
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入ID状态
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符已经不是标识符范围的了："."(46)[20:5]
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 回溯字符："."(46)[20:5]
+2025-05-23 00:15:41.264 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (20,4), ID, encd >
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："."(46)[20:5]
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入NORMAL状态
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是：" "(32)[20:6]
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 进入DOT状态
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："\n"(10)[20:7]
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："￿"(-1)[21:0]
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 结束标志
+2025-05-23 00:15:41.264 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (20,5), EOF, . >
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
+2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："￿"(-1)[22:0]
