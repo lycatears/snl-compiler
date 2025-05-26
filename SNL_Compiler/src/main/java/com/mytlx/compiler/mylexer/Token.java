@@ -43,7 +43,7 @@ public class Token {
 
     @Override
     public String toString() {
-        return "< (" + line + ":" + column + "), " + type + ", " + value + " >";
+        return "< [" + line + ":" + column + "], " + type + ", " + value + " >";
     }
 
     public int getLine() {
@@ -65,7 +65,7 @@ public class Token {
     public void checkKeyWords() {
         if (type == TokenType.ID) {
             if (keywords.contains(value)) {
-                type = TokenType.valueOf(value);
+                type = TokenType.valueOf(value.toUpperCase());
             }
         }
     }
