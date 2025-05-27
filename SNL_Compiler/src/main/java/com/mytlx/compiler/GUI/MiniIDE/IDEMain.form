@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="IDEPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="648" height="400"/>
+      <xy x="20" y="20" width="750" height="421"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -43,19 +43,13 @@
               <text value="编译"/>
             </properties>
           </component>
-          <component id="cf257" class="javax.swing.JCheckBox" binding="enableHighlightCheckBox">
-            <constraints/>
-            <properties>
-              <text value="启用语法高亮"/>
-            </properties>
-          </component>
         </children>
       </toolbar>
       <grid id="c2c22" binding="sourceCodePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="370" height="24"/>
+            <preferred-size width="359" height="24"/>
           </grid>
         </constraints>
         <properties/>
@@ -110,15 +104,6 @@
               </scrollpane>
             </children>
           </grid>
-          <grid id="4e254" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-            <margin top="0" left="0" bottom="0" right="0"/>
-            <constraints>
-              <tabbedpane title="语法分析结果"/>
-            </constraints>
-            <properties/>
-            <border type="none"/>
-            <children/>
-          </grid>
           <grid id="c95b0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
@@ -160,7 +145,23 @@
             </constraints>
             <properties/>
             <border type="none"/>
-            <children/>
+            <children>
+              <scrollpane id="6660d">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="28b72" class="javax.swing.JTree" binding="grammarTree">
+                    <constraints/>
+                    <properties>
+                      <font name="IBM Plex Mono" size="12"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
           </grid>
         </children>
       </tabbedpane>

@@ -3,7 +3,7 @@ package com.mytlx.compiler.mysyntax.tree;
 import java.io.FileNotFoundException;
 
 public class SyntaxTree {
-    private TreeNode root;
+    public TreeNode root;
 
     public SyntaxTree() {
     }

@@ -39,7 +39,7 @@ public class LineNumberHeaderView extends javax.swing.JComponent {
         int width = fontMetrics.stringWidth(String.valueOf(row));
         if (currentRowWidth < width) {
             currentRowWidth = width;
-            setPreferredSize(new Dimension(2 * MARGIN + width + 1, nHEIGHT));
+            setPreferredSize(new Dimension(2 * MARGIN + width, nHEIGHT));
         }
     }
 
@@ -89,7 +89,7 @@ public class LineNumberHeaderView extends javax.swing.JComponent {
         for (int i = startLineNum; i <= endLineNum; ++i) {
             String lineNum = String.valueOf(i);
             int width = fontMetrics.stringWidth(lineNum);
-            g.drawString(lineNum + " ", MARGIN + currentRowWidth - width - 1, start);
+            g.drawString(lineNum + " ", MARGIN + currentRowWidth - width - 2, start);
             start += nLineHeight;
         }
         setPreferredSize(endLineNum);

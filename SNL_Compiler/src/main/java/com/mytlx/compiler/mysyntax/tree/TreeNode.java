@@ -1,9 +1,12 @@
 package com.mytlx.compiler.mysyntax.tree;
 
+import com.mytlx.compiler.mylexer.Token;
+
 public class TreeNode {
     private TreeNode siblings;
     private TreeNode children;
     private String text;
+    private Token token = null;
 
     public TreeNode() {
 
@@ -11,6 +14,11 @@ public class TreeNode {
 
     public TreeNode(String value) {
         this.text = value;
+    }
+
+    public TreeNode(Token token){
+        this.text = token.toString();
+        this.token = token;
     }
 
     public boolean hasChild() {
@@ -47,13 +55,16 @@ public class TreeNode {
         this.children = children;
     }
 
-
     public String getText() {
         return text;
     }
 
     public void setText(String text) {
         this.text = text;
+    }
+
+    public Token getToken() {
+        return token;
     }
 
     @Override

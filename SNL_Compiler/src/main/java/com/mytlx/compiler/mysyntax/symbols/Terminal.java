@@ -11,7 +11,7 @@ public class Terminal extends Symbol{
 
     public Terminal(Token token) {
         this.token = token;
-        this.node = new TreeNode(token.getValue());
+        this.node = new TreeNode(token);
     }
 
     @Override

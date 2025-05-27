@@ -63,7 +63,7 @@ public class LineNumberHeaderView extends javax.swing.JComponent {
     }
 
     public int getStartOffset() {
-        return 4;
+        return 2;
     }
 
     /**

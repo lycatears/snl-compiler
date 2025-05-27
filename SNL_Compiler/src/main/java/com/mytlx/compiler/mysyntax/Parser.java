@@ -25,8 +25,12 @@ public class Parser {
     private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     private SyntaxTree tree;
 
-    Parser() {
+    public Parser() {
         dateFormat.setTimeZone(TimeZone.getTimeZone("GMT+8"));
+    }
+
+    public List<String> getLog() {
+        return log;
     }
 
     public SyntaxTree parse() {
@@ -98,7 +102,7 @@ public class Parser {
         TreeNode node = null;
         if (t != null) {
             if (t.getType().equals(type)) {
-                node = new TreeNode(t.getValue());
+                node = new TreeNode(t);
                 log.add('[' + dateFormat.format(new Date()) + "] Match token with type " + type + ": " + t);
             } else {
                 log.add('[' + dateFormat.format(new Date()) + "] Not match: " + type + ": " + t);
