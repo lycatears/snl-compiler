@@ -13,12 +13,8 @@ import javax.swing.*;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.text.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.awt.event.*;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
@@ -105,6 +101,14 @@ public class IDEMain {
             }
         });
 
+        save.addActionListener(new SaveButtonListener(code));
+        openSnlFIle.addActionListener(new OpenButtonListener(code));
+        newSnlFIle.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                code.setText("");
+            }
+        });
     }
 
     public static void main(String[] args) {
@@ -120,4 +124,97 @@ public class IDEMain {
         frame.pack();
         frame.setVisible(true);
     }
+
+    private class SaveButtonListener implements ActionListener {
+        private JTextComponent textComponent;
+
+        public SaveButtonListener(JTextComponent textComponent) {
+            this.textComponent = textComponent;
+        }
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            // 创建文件选择对话框
+            JFileChooser fileChooser = new JFileChooser();
+            fileChooser.setDialogTitle("保存文件");
+
+            // 设置默认文件名（可选）
+            fileChooser.setSelectedFile(new File("untitled.snl"));
+
+            // 显示保存对话框
+            int userSelection = fileChooser.showSaveDialog(save);
+
+            if (userSelection == JFileChooser.APPROVE_OPTION) {
+                File fileToSave = fileChooser.getSelectedFile();
+                try {
+                    // 写入文件
+                    BufferedWriter writer = new BufferedWriter(new FileWriter(fileToSave));
+                    writer.write(textComponent.getText());
+                    writer.close();
+
+                    // 显示成功消息
+                    JOptionPane.showMessageDialog(save,
+                            "文件已保存到: " + fileToSave.getAbsolutePath(),
+                            "保存成功",
+                            JOptionPane.INFORMATION_MESSAGE);
+                } catch (IOException ex) {
+                    // 显示错误消息
+                    JOptionPane.showMessageDialog(save,
+                            "保存文件时出错: " + ex.getMessage(),
+                            "错误",
+                            JOptionPane.ERROR_MESSAGE);
+                    ex.printStackTrace();
+                }
+            }
+        }
+    }
+
+    private class OpenButtonListener implements ActionListener {
+        private JTextComponent textComponent;
+
+        public OpenButtonListener(JTextComponent textComponent) {
+            this.textComponent = textComponent;
+        }
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            // 创建文件选择对话框
+            JFileChooser fileChooser = new JFileChooser();
+            fileChooser.setDialogTitle("打开文件");
+
+            // 设置文件过滤器（可选）
+            fileChooser.setFileFilter(new javax.swing.filechooser.FileNameExtensionFilter(
+                    "Text Files (*.txt)", "txt"));
+
+            // 显示打开对话框
+            int userSelection = fileChooser.showOpenDialog(openSnlFIle);
+
+            if (userSelection == JFileChooser.APPROVE_OPTION) {
+                File fileToOpen = fileChooser.getSelectedFile();
+                try {
+                    // 读取文件内容
+                    StringBuilder content = new StringBuilder();
+                    BufferedReader reader = new BufferedReader(new FileReader(fileToOpen));
+
+                    String line;
+                    while ((line = reader.readLine()) != null) {
+                        content.append(line).append("\n");
+                    }
+                    reader.close();
+
+                    // 设置文本到编辑器
+                    textComponent.setText(content.toString());
+                } catch (IOException ex) {
+                    // 显示错误消息
+                    JOptionPane.showMessageDialog(openSnlFIle,
+                            "打开文件时出错: " + ex.getMessage(),
+                            "错误",
+                            JOptionPane.ERROR_MESSAGE);
+                    ex.printStackTrace();
+                }
+            }
+        }
+    }
+
 }
+
