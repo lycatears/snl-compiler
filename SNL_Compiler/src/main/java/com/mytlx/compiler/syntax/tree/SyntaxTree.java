@@ -44,19 +44,19 @@ public class SyntaxTree {
         for (int i = 0; i < level - 1; i++) {
             if (b[i] == 1) {
                 System.out.print("|  ");
-                out.print("|  ");
+//                System.out.print("|  ");
             } else {
                 System.out.print("   ");
-                out.print("   ");
+//                out.print("   ");
             }
         }
 
         if (node == root) {
             System.out.println(node.getValue());
-            out.println(node.getValue());
+//            System.out.println(node.getValue());
         } else {
             System.out.println("|__" + node.getValue());
-            out.println("|__" + node.getValue());
+//            out.println("|__" + node.getValue());
         }
         if (node.hasChild()) {
             if (node.hasSiblings()) {

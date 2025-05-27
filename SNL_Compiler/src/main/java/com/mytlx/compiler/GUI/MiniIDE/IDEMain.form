@@ -71,7 +71,7 @@
               <component id="5d725" class="javax.swing.JTextPane" binding="code">
                 <constraints/>
                 <properties>
-                  <font name="Courier New" size="14"/>
+                  <font name="Courier New" size="15"/>
                 </properties>
               </component>
             </children>

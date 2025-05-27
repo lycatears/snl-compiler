@@ -1827,3 +1827,9 @@
 2025-05-23 00:15:41.264 [DEBUG] com.mytlx.compiler.lexer.Lexer - 已识别Token：< (20,5), EOF, . >
 2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 调用getToken方法
 2025-05-23 00:15:41.264 [TRACE] com.mytlx.compiler.lexer.Lexer - 当前字符是："￿"(-1)[22:0]
+2025-05-27 00:25:54.559 [ERROR] com.mytlx.compiler.syntax.LL1.LexParse - 加载文件失败
+2025-05-27 00:25:54.567 [INFO ] com.mytlx.compiler.syntax.LL1.LL1Parse - =========================语法分析开始=============================
+2025-05-27 00:25:54.576 [TRACE] com.mytlx.compiler.syntax.LL1.LL1Parse - symbol是非终结符：<Program>
+2025-05-27 00:26:21.657 [ERROR] com.mytlx.compiler.syntax.LL1.LexParse - 加载文件失败
+2025-05-27 00:26:21.660 [INFO ] com.mytlx.compiler.syntax.LL1.LL1Parse - =========================语法分析开始=============================
+2025-05-27 00:26:21.667 [TRACE] com.mytlx.compiler.syntax.LL1.LL1Parse - symbol是非终结符：<Program>

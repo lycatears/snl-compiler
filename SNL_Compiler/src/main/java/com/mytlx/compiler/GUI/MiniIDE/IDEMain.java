@@ -40,7 +40,7 @@ public class IDEMain {
         codeScrollPane.setRowHeaderView(new LineNumberHeaderView());
         StyledDocument doc = code.getStyledDocument();
         SimpleAttributeSet attrs = new SimpleAttributeSet();
-        StyleConstants.setLineSpacing(attrs, 5.0f);
+        StyleConstants.setLineSpacing(attrs, 20.0f);
 //        Style keywordStyle = doc.addStyle("Keyword", null);
 //        StyleConstants.setForeground(keywordStyle, Color.BLUE);
 //        StyleConstants.setBold(keywordStyle, true);
