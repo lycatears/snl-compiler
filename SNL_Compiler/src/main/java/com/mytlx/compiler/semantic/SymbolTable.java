@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class SymbolTable {
     private Map<String, Symbol> table = new HashMap<>();
-    private SymbolTable parent;
+    SymbolTable parent;
 
     public SymbolTable(SymbolTable parent) {
         this.parent = parent;

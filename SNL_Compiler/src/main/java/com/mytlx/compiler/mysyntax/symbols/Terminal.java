@@ -26,4 +26,8 @@ public class Terminal extends Symbol{
     public static Terminal terminalFactory(TokenType tokenType) {
         return new Terminal(new Token(tokenType));
     }
+
+    public static Terminal terminalFactory(Token token) {
+        return new Terminal(token);
+    }
 }

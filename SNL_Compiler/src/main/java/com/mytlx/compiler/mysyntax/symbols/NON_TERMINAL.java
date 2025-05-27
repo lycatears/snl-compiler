@@ -131,7 +131,7 @@ public enum NON_TERMINAL {
             } else if (type == ARRAY || type == RECORD) {
                 return singletonList(createNonTerminal("StructureType"));
             } else if (type == ID) {
-                return singletonList(terminalFactory(ID));
+                return singletonList(terminalFactory(token));
             }
             return null;
         }
@@ -237,7 +237,7 @@ public enum NON_TERMINAL {
         public List<Symbol> predict(Token token) {
             TokenType type = token.getType();
             if (type == ID) {
-                return asList(terminalFactory(ID), createNonTerminal("IdMore"));
+                return asList(terminalFactory(token), createNonTerminal("IdMore"));
             }
             return null;
         }
@@ -310,7 +310,7 @@ public enum NON_TERMINAL {
         public List<Symbol> predict(Token token) {
             TokenType type = token.getType();
             if (type == ID) {
-                return asList(terminalFactory(ID), createNonTerminal("VarIdMore"));
+                return asList(terminalFactory(token), createNonTerminal("VarIdMore"));
             }
             return null;
         }
@@ -374,7 +374,7 @@ public enum NON_TERMINAL {
         public List<Symbol> predict(Token token) {
             TokenType type = token.getType();
             if (type == ID) {
-                return singletonList(terminalFactory(ID));
+                return singletonList(terminalFactory(token));
             }
             return null;
         }
@@ -444,7 +444,7 @@ public enum NON_TERMINAL {
         public List<Symbol> predict(Token token) {
             TokenType type = token.getType();
             if (type == ID) {
-                return asList(terminalFactory(ID), createNonTerminal("FidMore"));
+                return asList(terminalFactory(token), createNonTerminal("FidMore"));
             }
             return null;
         }
@@ -557,7 +557,7 @@ public enum NON_TERMINAL {
                 case RETURN:
                     return singletonList(createNonTerminal("ReturnStm"));
                 case ID:
-                    return asList(terminalFactory(ID), createNonTerminal("AssCall"));
+                    return asList(terminalFactory(token), createNonTerminal("AssCall"));
             }
             return null;
         }
@@ -638,7 +638,7 @@ public enum NON_TERMINAL {
         public List<Symbol> predict(Token token) {
             TokenType type = token.getType();
             if (type == ID) {
-                return singletonList(terminalFactory(ID));
+                return singletonList(terminalFactory(token));
             }
             return null;
         }
@@ -843,7 +843,7 @@ public enum NON_TERMINAL {
         public List<Symbol> predict(Token token) {
             TokenType type = token.getType();
             if (type == ID) {
-                return asList(terminalFactory(ID), createNonTerminal("VariMore"));
+                return asList(terminalFactory(token), createNonTerminal("VariMore"));
             }
             return null;
         }
@@ -886,7 +886,7 @@ public enum NON_TERMINAL {
         public List<Symbol> predict(Token token) {
             TokenType type = token.getType();
             if (type == ID) {
-                return asList(terminalFactory(ID), createNonTerminal("FieldVarMore"));
+                return asList(terminalFactory(token), createNonTerminal("FieldVarMore"));
             }
             return null;
         }

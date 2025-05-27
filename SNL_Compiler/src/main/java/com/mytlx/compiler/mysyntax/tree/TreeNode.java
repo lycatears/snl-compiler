@@ -17,7 +17,9 @@ public class TreeNode {
     }
 
     public TreeNode(Token token){
-        this.text = token.toString();
+        if(token != null){
+            this.text = token.toString();
+        }
         this.token = token;
     }
 
