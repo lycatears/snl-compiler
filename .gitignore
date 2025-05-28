@@ -48,3 +48,5 @@ Thumbs.db
 /mvnw.cmd
 /mvnw
 /SNL_Compiler/target/
+/.idea/
+/SNL_Compiler/target/
