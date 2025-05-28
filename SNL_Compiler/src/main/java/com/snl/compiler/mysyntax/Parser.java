@@ -19,6 +19,7 @@ import java.util.*;
 public class Parser {
     private final SNLLexer lexer = new SNLLexer();
     private final List<String> log = new ArrayList<String>();
+    private final List<String> error = new ArrayList<String>();
     private List<Token> tokens;
     private int index = 0;
     private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -30,6 +31,10 @@ public class Parser {
 
     public List<String> getLog() {
         return log;
+    }
+
+    public List<String> getError() {
+        return error;
     }
 
     public SyntaxTree parse() {
@@ -76,11 +81,13 @@ public class Parser {
                     }
                 } else {
                     log.add('[' + dateFormat.format(new Date()) + "] Failed to Match NonTerminal.");
+                    error.add('[' + dateFormat.format(new Date()) + "] Failed to Match NonTerminal near" + getPeekToken());
 //                    return null;
                     break;
                 }
             } else {
                 log.add('[' + dateFormat.format(new Date()) + "] Illegal token: " + symbol.getNode().getText());
+                error.add('[' + dateFormat.format(new Date()) + "] Illegal token: " + symbol.getNode().getText());
 //                return null;
                 break;
             }

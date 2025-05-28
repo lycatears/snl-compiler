@@ -32,6 +32,7 @@ public class IDEMain {
     private JScrollPane codeScrollPane;
     private JTree grammarTree;
     private JTextPane semanticResult;
+    private JTextPane syntaxError;
     private SNLLexer lexer = new SNLLexer();
     private List<Token> list;
 
@@ -52,9 +53,11 @@ public class IDEMain {
                     lexer.getLog().clear();
                     DefaultTableModel dtm = (DefaultTableModel) lexTable.getModel();
                     compileLog.setText("");
+                    syntaxError.setText("");
+                    semanticResult.setText("");
 
                     for(int i = 0; i < dtm.getRowCount(); i++){
-                        dtm.removeRow(i);
+                        dtm.removeRow(0);
                     }
 
                     //词法分析
@@ -87,6 +90,12 @@ public class IDEMain {
                         compileLog.append(log + "\n");
                     }
 
+                    for(String log: parser.getError()){
+                        StyledDocument sd = (StyledDocument) syntaxError.getDocument();
+                        AttributeSet as = sd.addStyle("error", null);
+                        sd.insertString(sd.getLength(),log+'\n',as);
+                    }
+
                     for(String log: sa.getLog()){
                         compileLog.append(log + "\n");
                         if(log.contains("ERROR")){
@@ -106,7 +115,10 @@ public class IDEMain {
         newSnlFIle.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                code.setText("");
+                int choice = JOptionPane.showOptionDialog(code,"是否清空代码？","提示",JOptionPane.DEFAULT_OPTION,JOptionPane.WARNING_MESSAGE,null,null,null);
+                if(choice == JOptionPane.OK_OPTION){
+                    code.setText("");
+                }
             }
         });
     }
@@ -184,7 +196,7 @@ public class IDEMain {
 
             // 设置文件过滤器（可选）
             fileChooser.setFileFilter(new javax.swing.filechooser.FileNameExtensionFilter(
-                    "Text Files (*.txt)", "txt"));
+                    "SNL source Files (*.txt)", "snl"));
 
             // 显示打开对话框
             int userSelection = fileChooser.showOpenDialog(openSnlFIle);
